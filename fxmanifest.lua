@@ -5,7 +5,15 @@ author 'EnyoScripts'
 description 'Enyo RTS - Custom Map Assets (Desert Arena)'
 version '1.0.0'
 
+files {
+    'stream/*.ydr',
+    'stream/*.ytyp',
+    'stream_enhanced/*.ydr',
+    'stream_enhanced/*.ytyp',
+}
+
 data_file 'DLC_ITYP_REQUEST' 'stream/desert_map.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream_enhanced/desert_map.ytyp'
 
 -- This resource streams custom map models used by the Mirage (Desert) battlefield.
 -- Must be started before enyo-rts.
